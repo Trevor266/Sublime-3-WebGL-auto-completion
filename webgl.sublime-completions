@@ -1,0 +1,152 @@
+{
+   "scope": "text.html",
+
+   "completions":
+   [
+      { 
+      	"trigger": "DEPTH_BUFFER_BIT\tIndicates the depth buffer", 
+      	"contents": "DEPTH_BUFFER_BIT"
+      },
+
+      { 
+      	"trigger": "STENCIL_BUFFER_BIT\tIndicates the stencil buffer", 
+      	"contents": "STENCIL_BUFFER_BIT" 
+      },
+
+      { 
+      	"trigger": "COLOR_BUFFER_BIT\tIndicates the buffers currently enabled for color writing", 
+      	"contents": "COLOR_BUFFER_BIT" 
+      },
+
+      {
+      	"trigger": "POINTS\tIndividual point primitive, each vertex is a point",
+      	"contents": "POINTS"
+      },
+
+      {
+      	"trigger": "LINES\tLine Primitive, vertices 0 and 1 considered line",
+      	"contents": "LINES"
+      },
+
+      {
+      	"trigger": "LINE_LOOP\tLine Primitive, n vertices = n lines",
+      	"contents": "LINE_LOOP"
+      },
+
+      {
+      	"trigger": "LINE_STRIP\tLine Primitive, n vertices = n - 1 lines",
+      	"contents": "LINE_STRIP"
+      },
+
+      {
+      	"trigger": "TRIANGLES\tTriangle Primitive, verticies 0, 1, and 2 considered triangle",
+      	"contents": "TRIANGLES"
+      },
+
+      {
+      	"trigger": "TRIANGLE_STRIP\tTriangle Primitive, vertex stream of n = n - 2 triangles",
+      	"contents": "TRIANGLE_STRIP"
+      },
+
+      {
+      	"trigger": "TRIANGLE_FAN\tTriangle Primitive, first vertex held fixed, vertex stream of n = n - 2 triangles",
+      	"contents": "TRIANGLE_FAN"
+      },
+
+      {
+      	"trigger": "ZERO\tBlend Factor: (0,0,0), Alpha Factor: 0",
+      	"contents": "ZERO"
+      },      
+
+      {
+      	"trigger": "ONE\tBlend Factor: (1,1,1), Alpha Factor: 1",
+      	"contents": "ONE"
+      },
+
+      {
+      	"trigger": "SRC_COLOR\tBlend Factor: (Rs,Gs,Bs), Alpha Factor: As",
+      	"contents": "SRC_COLOR"
+      },
+
+      {
+      	"trigger": "ONE_MINUS_SRC_COLOR\tBlend Factor: (1,1,1)-(Rs,Gs,Bs), Alpha Factor: 1 - As",
+      	"contents": "ONE_MINUS_SRC_COLOR"
+      },
+
+      {
+      	"trigger": "SRC_ALPHA\tBlend Factor:(As,As,As), Alpha Factor: (As)",
+      	"contents": "SRC_ALPHA"
+      },
+
+      {
+      	"trigger": "ONE_MINUS_SRC_ALPHA\tBlend Factor:(1,1,1) – (As,As,As), Alpha Factor: 1 - As",
+      	"contents": "ONE_MINUS_SRC_ALPHA"
+      },
+
+      {
+      	"trigger": "DST_ALPHA\tBlend Factor:(Ad,Ad,Ad), Alpha Factor: Ad",
+      	"contents": "DST_ALPHA"
+      },
+
+      {
+      	"trigger": "ONE_MINUS_DST_ALPHA\tBlend Factor:(1,1,1)-(Ad,Ad,Ad), Alpha Factor: 1 - Ad",
+      	"contents": "ONE_MINUS_DST_ALPHA"
+      },
+
+      {
+      	"trigger": "DST_COLOR\tBlend Factor: (Rd,Gd,Bd), Alpha Factor: Ad",
+      	"contents": "DST_COLOR",
+      	"view": "view.show_popup(Hello)"
+      },
+
+      {
+      	"trigger": "ONE_MINUS_DST_COLOR\tBlend Facotr: (1,1,1) – (Rd,Gd,Bd), Alpha Factor: 1 - Ad",
+      	"contents": "ONE_MINUS_DST_COLOR"
+      },
+
+      {
+      	"trigger": "SRC_ALPHA_SATURATE\tBlend Factor: (f,f,f), Alpha Factor: 1",
+      	"contents": "SRC_ALPHA_SATURATE"
+      },
+
+      {
+      	"trigger": "FUNC_ADD\tFunction: Cf = (Cs * S) + (Cd * D)",
+      	"contents": "FUNC_ADD"
+      },
+
+      {
+      	"trigger": "FUNC_SUBTRACT\tFunction: Cf = (Cs * S) – (Cd * D)",
+      	"contents": "FUNC_SUBTRACT"
+      },
+
+      {
+      	"trigger": "FUNC_REVERSE_SUBTRACT\tFunction: Cf = (Cd * D) – (Cs * S)",
+      	"contents": "FUNC_REVERSE_SUBTRACT"
+      },
+
+      {
+      	"trigger": "CONSTANT_COLOR\tRBG: (Rc,Gc,Bc), Alpha: Ac",
+      	"contents": "CONSTANT_COLOR"
+      },
+
+      {
+      	"trigger": "ONE_MINUS_CONSTANT_COLOR\tRGB: (1,1,1)-(Rc,Gc,Bc), Alpha: 1 - Ac",
+      	"contents": "ONE_MINUS_CONSTANT_COLOR"
+      },
+
+      {
+      	"trigger": "CONSTANT_ALPHA\tRGB: (Ac,Ac,Ac), Alpha: Ac",
+      	"contents": "CONSTANT_ALPHA"
+      },
+
+      {
+      	"trigger": "ONE_MINUS_CONSTANT_ALPHA\tRGB: (1,1,1)-(Ac,Ac,Ac), Alpha: 1 - Ac",
+      	"contents": "ONE_MINUS_CONSTANT_ALPHA"
+      },
+
+      {
+      	"trigger": "",
+      	"contents": ""
+      },
+   ]
+}
