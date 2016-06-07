@@ -1,0 +1,5 @@
+This is simply an unfinished auto-completion file for sublime that offers notes about the various components 
+of WebGL, taken straight from the documentation. The file is simple and to extend it all you need 
+to do is copy and paste the trigger and contents portion at the bottom for each new completion you would like 
+to add and write out what you want in each one, trigger is going to be the tooltip that gets displayed
+as you hover over the completion, and contents is what hitting tab will actually auto-complete to.
